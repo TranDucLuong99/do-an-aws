@@ -14,5 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Admin.Master.app');
+});
+
+Route::get('/', function () {
+    return view('Admin.Master.app');
+});
+
+Route::get('/home', function () {
+    return view('h');
+});
+
+
+Route::get('/test', function () {
+    return view('test');
 });
